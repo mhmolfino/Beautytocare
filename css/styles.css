@@ -8,17 +8,13 @@ img {
     max-width: 100%;
 }
 
-header {
+ header {
     background-color: rgb(154, 5, 72);
     position: fixed;
-    top: 0;
     z-index: 1;
     width: 100%;
-    height: 2.5rem;
-
+    top: 0;
 }
-
-
 
 h1 {
     margin-left: 2%;
@@ -76,7 +72,7 @@ footer {
 }
 
 #home__section1 {
-    padding-top: 2.5rem;
+    padding-top: 3.5rem;
     background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -229,6 +225,7 @@ footer {
     flex-direction: column;
     width: auto;
     border: solid;
+    margin-top: 3.5rem;
 }
 
 .form__label {
@@ -249,13 +246,13 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
     margin-bottom: 2.5rem;
 }
 
 .faq__q {
     display: flex;
     flex-direction: column;
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
     font-size: 1.2rem;
 }
