@@ -9,7 +9,6 @@ img {
 }
 
  header {
-    background-color: rgb(154, 5, 72);
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -39,27 +38,8 @@ footer {
     text-align: center;
 }
 
-.header__nav--menu {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0.5rem;
-    justify-content: flex-end;
-
-}
-
-.header__nav--menu li {
-    transition: all 0.5s;
-}
-
-.header__nav--menu li a {
-    color: rgb(240, 237, 223);
-    padding: 1rem;
-}
-
-.header__nav--menu li:hover {
-    background-color: rgba(98, 78, 88, 0.8);
-    height: 25px;
+.navbar-custom .navbar-text {   
+    color: aqua;
 }
 
 #home_title {
