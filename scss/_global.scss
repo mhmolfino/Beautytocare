@@ -10,13 +10,12 @@ img {
 
 header {
     position: fixed;
-    z-index: 1;
+    z-index: 1; 
     width: 100%;
     top: 0;
 }
 
 h1 {
-    margin-left: 2%;
     color: $title_color;
 
 }
