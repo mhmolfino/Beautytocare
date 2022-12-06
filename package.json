@@ -1,0 +1,19 @@
+{
+  "name": "2022-11-13",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhmolfino/PreEntrega2-molfino.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhmolfino/PreEntrega2-molfino/issues"
+  },
+  "homepage": "https://github.com/mhmolfino/PreEntrega2-molfino#readme",
+  "description": ""
+}

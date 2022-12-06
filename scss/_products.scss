@@ -1,0 +1,28 @@
+.products__menu {
+
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        padding: 1rem;
+    }
+}
+.section__flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.products__name {
+    text-align: center;
+}
+

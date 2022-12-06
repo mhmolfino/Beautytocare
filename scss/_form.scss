@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+    border: solid;
+    margin-top: 3.5rem;
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:  rgb(231, 182, 196);
+}
+
+.form__format{
+    text-align: center;
+}
+.form__subtitle{
+    border: solid;
+}
+.form__label {
+    display: inline-block;
+    // width: 20%;
+    min-width: 150px;
+    padding-left: 1rem;
+}
+
+.form__but {
+    justify-content: space-between;
+}
+
+.form__button {
+    justify-content: space-around;
+}

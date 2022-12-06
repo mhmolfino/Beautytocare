@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+h1 {
+    margin-left: 2%;
+    color: $title_color;
+
+}
+
+h4{
+    text-align: center;
+    color: $title_color;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    background-color: $footer_color;
+    color: $font_softcolor;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    background-color: $bg_color;
+    color: $subtitle_color;
+    width: 100%;
+    text-align: center;
+}
+
+
+.bg {
+    background-color: $bg_color;
+}

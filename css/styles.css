@@ -1,238 +1,265 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
- header {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    top: 0;
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
 }
 
 h1 {
-    margin-left: 2%;
-    color: rgb(53, 48, 47);
+  margin-left: 2%;
+  color: rgb(53, 48, 47);
+}
 
+h4 {
+  text-align: center;
+  color: rgb(53, 48, 47);
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    padding-top: 2.5rem;
-    background-color: rgb(154, 5, 72);
-    color: rgb(240, 237, 223);
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.5rem;
+  background-color: rgb(154, 5, 72);
+  color: rgb(240, 237, 223);
 }
-
 
 .title {
-    font-family: 'Pacifico', cursive;
-    background-color: rgba(98, 78, 88, 0.75);
-    color: rgb(231, 182, 196);
-    width: 100%;
-    text-align: center;
-}
-
-.navbar-custom .navbar-text {   
-    color: aqua;
-}
-
-#home_title {
-    display: flex;
-    font-family: 'Pacifico', cursive;
-    /*background-color: rgba(98,78,88,0.75);*/
-    color: rgb(231, 182, 196);
-    width: 100%;
-
-}
-
-#home__section1 {
-    padding-top: 3.5rem;
-    background-image: url(../img/Background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    width: 100%;
-    height: 100%;
+  font-family: "Pacifico", cursive;
+  background-color: rgba(98, 78, 88, 0.75);
+  color: rgb(231, 182, 196);
+  width: 100%;
+  text-align: center;
 }
 
 .bg {
-    background-color: rgba(98, 78, 88, 0.75);
-}
-
-#home__section2 {
-    background-image: url(../img/Background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-.home__section3 {
-
-    background-image: url(../img/Background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    /* display: flex;
-    flex-direction: row; */
-    /* align-content: center; */
-    /* justify-content: space-between; */
-}
-
-.home__imagenes-titulo {
-    display: flex;
-    margin: 1%;
-    width: 100px;
-}
-
-.home__img {
-    height: 30rem;
-    border: solid;
-}
-
-.home__h2 {
-    display: flex;
-    justify-content: center;
-    color: rgb(231, 182, 196);
-    /*background-color: rgba(98,78,88,0.75);*/
-}
-
-.home__section1--p {
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    color: rgb(231, 182, 196);
-    /*background-color: rgba(98,78,88,0.75);*/
-
-}
-
-.products__menu {
-
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.products__menu li {
-    padding: 1rem;
-}
-
-.home__section__flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    background-color: rgba(231, 182, 196, 0.8);
-}
-
-.section__flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-image: url(../img/Background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+  background-color: rgba(98, 78, 88, 0.75);
 }
 
 .card {
-    /* display: flex; */
-    background-color: rgba(231, 182, 196, 0.75);
-    /* justify-content: space-between; */
-    /* position: relative; */
-    align-items: center;
+  /* display: flex; */
+  background-color: rgba(231, 182, 196, 0.75);
+  /* justify-content: space-between; */
+  /* position: relative; */
+  align-items: center;
 }
 
 .card__format {
-    width: 12rem;
-    text-align: center;
-    height: 100%;
+  width: 12rem;
+  text-align: center;
+  height: 100%;
 }
 
 .card__img {
-    height: 10rem;
-    justify-content: center;
-
+  height: 10rem;
+  justify-content: center;
 }
-
 
 .card__paragraph {
-    text-align: justify;
-    font-size: 1.2rem;
-
-}
-
-.products__name {
-    text-align: center;
+  text-align: justify;
+  font-size: 1.2rem;
 }
 
 .card__price {
-    text-align: center;
-    justify-content: space-between;
-    font-size: 1.3rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
+.navbar-custom .navbar-text {
+  color: aqua;
+}
 
+#home_title {
+  display: flex;
+  font-family: "Pacifico", cursive;
+  /*background-color: rgba(98,78,88,0.75);*/
+  color: rgb(231, 182, 196);
+  width: 100%;
+}
+
+#home__section1 {
+  padding-top: 3.5rem;
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#home__section2 {
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.home__section3 {
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.home__imagenes-titulo {
+  display: flex;
+  margin: 1%;
+  width: 100px;
+}
+
+.home__img {
+  width: auto;
+  max-height: 30rem;
+  border: solid;
+}
+
+.home__h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(231, 182, 196);
+  /*background-color: rgba(98,78,88,0.75);*/
+}
+
+.home__section1--p {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: rgb(231, 182, 196);
+  /*background-color: rgba(98,78,88,0.75);*/
+}
+
+.home__section__flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-color: rgba(231, 182, 196, 0.8);
+}
+
+.products__menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.products__menu li {
+  padding: 1rem;
+}
+
+.section__flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.products__name {
+  text-align: center;
 }
 
 .form {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: auto;
-    border: solid;
-    margin-top: 3.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: auto;
+  border: solid;
+  margin-top: 3.5rem;
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(231, 182, 196);
+}
+
+.form__format {
+  text-align: center;
+}
+
+.form__subtitle {
+  border: solid;
 }
 
 .form__label {
-    display: inline-block;
-    width: 7rem;
-    padding-left: 1rem;
+  display: inline-block;
+  min-width: 150px;
+  padding-left: 1rem;
 }
 
 .form__but {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .form__button {
-    justify-content: space-around;
-}
-
-.business__para {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 3.5rem;
-    margin-bottom: 2.5rem;
+  justify-content: space-around;
 }
 
 .faq__q {
-    display: flex;
-    flex-direction: column;
-    margin-top: 3.5rem;
-    font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.5rem;
+  font-size: 1.2rem;
 }
+
+#laEmpresa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 3.5rem;
+}
+
+.business__para {
+  padding: 2%;
+  color: rgb(231, 182, 196);
+  text-align: justify;
+}
+
+.business__img {
+  width: 80%;
+}
+
+.business__img__al {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
