@@ -225,11 +225,20 @@ footer {
   justify-content: space-around;
 }
 
+.faq {
+  background-image: url(../img/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .faq__q {
   display: flex;
   flex-direction: column;
   margin-top: 3.5rem;
   font-size: 1.2rem;
+  color: rgb(240, 237, 223);
 }
 
 #laEmpresa {
