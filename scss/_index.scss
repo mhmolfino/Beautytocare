@@ -8,7 +8,7 @@
 }
 #home__section1 {
     padding-top: 3.5rem;
-    background-image: url(../img/Background.png);
+    background-image: url("../img/Background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover ;
@@ -19,7 +19,7 @@
 }
 
 #home__section2 {
-    background-image: url(../img/Background.png);
+    background-image: url("../img/Background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,9 +29,8 @@
     width: 100%;
 }
 
-.home__section3 {
-
-    background-image: url(../img/Background.png);
+#home__section3{
+    background-image: url("../img/Background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
